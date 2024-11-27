@@ -4,7 +4,7 @@ const app = express();
 const port = 8080;
 
 app.get('/', (req, res) => {
-  res.send('Hello, I am Esteban and this is a distributed programming duty 26/11/2024');
+  res.send('Hello, I am Esteban and this is a distributed programming duty 26/11');
 });
 
 // Escuchar en todas las interfaces de red
