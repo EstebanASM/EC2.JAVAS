@@ -2,7 +2,7 @@ const express = require('express');
 const os = require('os'); // Módulo para obtener información de la red
 
 const app = express();
-const port = 8080;
+const port = 80;
 
 // Función para obtener la dirección IP de la red local
 function getLocalIPAddress() {
