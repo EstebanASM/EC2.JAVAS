@@ -1,0 +1,14 @@
+# Ignorar node_modules (dependencias de Node.js)
+node_modules/
+
+# Ignorar archivos de logs
+npm-debug.log
+yarn-error.log
+
+# Ignorar archivos de sistema (si trabajas en macOS o Windows)
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos temporales o de configuración local
+.vscode/
+.vercel
