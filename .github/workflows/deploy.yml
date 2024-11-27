@@ -30,11 +30,11 @@ jobs:
         script: |
           cd /home/ubuntu/EC2.JAVAS
           git pull origin main
-          npm i
-          pm2 start app.js
-          pm2 startup
-          pm2 save
-          pm2 restart app.js
-          pm2 ls
+          sudo npm i
+          sudo pm2 start app.js
+          sudo pm2 startup
+          sudo pm2 save
+          sudo pm2 restart app.js
+          sudo pm2 ls
 
           
