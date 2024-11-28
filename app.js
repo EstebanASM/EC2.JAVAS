@@ -23,7 +23,7 @@ function getLocalIPAddress() {
 // Endpoint principal
 app.get('/', (req, res) => {
   const ipAddress = getLocalIPAddress();
-  res.send(`Hello, I am Esteban Sillo and this is a distributed programming duty gitttttthubbbbbbbbbbb pull request.<br>Your IP address is: <b>${ipAddress}</b>`);
+  res.send(`Hello, I am Esteban Sillo and this is a distributed programming duty 88888888888888888888888888888888888888888888888.<br>Your IP address is: <b>${ipAddress}</b>`);
 });
 
 // Escuchar en todas las interfaces de red
