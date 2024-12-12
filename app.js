@@ -14,7 +14,6 @@ function getLocalIPAddress() {
       if (iface.family === 'IPv4' && !iface.internal) {
         ipAddress = iface.address;
         return ipAddress;
-      }
     }
   }
   return ipAddress;
